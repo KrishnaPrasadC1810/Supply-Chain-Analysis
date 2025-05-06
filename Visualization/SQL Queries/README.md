@@ -1,7 +1,7 @@
 **Supply Chain Analysis**
 
 
-Tools Used: SQL, Excel, Power BI (optional extension)
+Tools Used: SQL, Excel, Power BI 
 
 🔹 Project Overview
 This project focuses on analyzing a simulated supply chain dataset to extract key business insights related to sales performance, inventory health, and regional trends. I used SQL for data modeling and analysis, and built an interactive Excel dashboard to visualize KPIs for business decision-making.
