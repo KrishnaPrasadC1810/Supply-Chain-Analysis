@@ -1,4 +1,6 @@
 **Story Behind the Project**
+
+
 In today's fast-moving retail world, businesses need more than just numbers—they need insights. I took on the challenge of transforming complex supply chain data into a clear, interactive, and impactful dashboard that would help decision-makers understand where their business stands and where it's heading.
 
 Using Power BI, I designed and developed a comprehensive Supply Chain Analysis Dashboard that acts like a control center for the company’s sales, inventory, and procurement data. The goal was to create a tool that doesn’t just show data but tells a story—one that empowers strategy, boosts efficiency, and supports smarter decisions.
