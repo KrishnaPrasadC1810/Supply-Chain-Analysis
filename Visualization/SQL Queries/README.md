@@ -1,100 +1,53 @@
-📦 Supply Chain Analysis Project
-👋 Welcome!
-This project was designed to simulate a real-world supply chain environment. By working with multiple datasets, I analyzed inventory flow, sales performance, and product demand to help identify business bottlenecks and opportunities. The project used SQL for data modeling and analysis, and Excel/Power BI for dashboard creation and visualization.
-
-🛠 Tools Used
-SQL (MySQL / SQL Server) – For data extraction, cleaning, and transformation
-
-Excel – For dashboard visualization and reporting
-
-Power BI – For building interactive visual dashboards (optional extension)
-
-🧠 Project Objective
-To analyze company-wide supply chain operations:
-
-Identify top-selling products and regions
-
-Track inventory value and stock health
-
-Measure month-over-month (MoM) and year-over-year (YoY) growth
-
-Detect sales patterns and customer behavior
-
-🧩 Data Overview
-The analysis was based on a combination of fact and dimension tables:
-
-supply_chain_view: Contains sales transactions (quantity, price, customer, product, location)
-
-inventory_adjusted: Holds inventory quantity and cost for each product
-
-sales: Contains purchase method and customer transaction data
-
-Supporting tables: Calendar, stores, customers, geolocation data
-
-🔍 Key Insights Extracted Using SQL
-Sales Metrics:
-
-MTD (Month-to-Date), QTD, and YTD Sales were calculated dynamically based on today’s date using functions like CURDATE(), DATE_FORMAT() and MAKEDATE().
-
-Example Query:
-SELECT SUM(Quantity * Price) AS MTD_Sales
-FROM supply_chain_view
-WHERE Date >= DATE_FORMAT(CURDATE(), '%Y-%m-01') 
-AND Date <= CURDATE();
+**Supply Chain Analysis**
 
 
+Tools Used: SQL, Excel, Power BI (optional extension)
 
-Sales Trends:
+🔹 Project Overview
+This project focuses on analyzing a simulated supply chain dataset to extract key business insights related to sales performance, inventory health, and regional trends. I used SQL for data modeling and analysis, and built an interactive Excel dashboard to visualize KPIs for business decision-making.
 
-MoM Growth calculated using LAG() and window functions.
+🔹 Objectives
+Track sales trends (MTD, QTD, YTD)
 
-YoY Growth analyzed by grouping and comparing yearly sales trends.
+Analyze MoM and YoY growth
 
-Daily sales trends provided granular transaction insights.
+Evaluate inventory status (overstock, understock, out-of-stock)
 
-Product & Store Analysis:
+Identify top-performing products, stores, and regions
 
-Top-performing product categories, states, regions, and stores were ranked.
+Understand customer behavior based on purchase methods
 
-Example: The West region consistently contributed the highest sales.
+🔹 Key Features
+Dynamic metrics using SQL window functions and date functions
 
-Inventory Health:
+Inventory value and stock status classification
 
-Inventory was categorized as Overstock, Under-stock, Out-of-stock, or Optimal.
+Sales breakdown by region, state, and store
 
-Inventory value was calculated as Quantity_on_Hand * Cost_Amount.
+Product-wise and method-wise sales contribution
 
-Customer Behavior:
+Visual dashboard with daily, monthly, and yearly trends
 
-Sales were broken down by purchase method (Cash, Credit, Debit, etc.).
+🔹 SQL Techniques Used
+Joins, aggregations, subqueries
 
-Joins with the sales table linked customer transactions with product and revenue data.
+Window functions: LAG(), ROUND(), GROUP BY, ORDER BY
 
-📈 Sample KPIs Created
-Total Sales
+Date-based filtering for MTD, QTD, YTD
 
-Monthly and Yearly Growth Rates
+CASE statements for stock classification
 
-Top 5 Store Sales
+🔹 Outcome
+Delivered a clean and insightful Excel dashboard
 
-Inventory Value by Product
+Built reusable SQL scripts for dynamic business queries
 
-Stock Health Classification
+Strengthened skills in supply chain KPIs, inventory control, and trend analysis
 
-Purchase Method Analysis
+📁 Files Used:
 
-🎯 Outcome & Skills Demonstrated
-SQL Mastery: Complex queries with subqueries, joins, aggregations, and window functions
+Fact tables: supply_chain_view, inventory_adjusted, sales
 
-Dashboarding: Built clear and intuitive Excel dashboards (also extendable to Power BI)
+Dimension tables: calendar, customer, store, geojson
 
-Analytical Thinking: Derived meaningful insights that would guide business decisions in a real-world supply chain system
-
-Data Storytelling: Presented the data in a way that is easy to understand for non-technical stakeholders
-
-✅ Final Output
-An interactive Excel dashboard that provides a high-level summary and deep drill-down views.
-
-Insight-ready data models that are ready for integration with BI tools.
-
-Real-world simulation of how businesses can optimize inventory, sales, and distribution using data.
+💡 This project demonstrates my ability to apply SQL and data visualization tools to solve real-world business problems in supply chain and operations analytics.
