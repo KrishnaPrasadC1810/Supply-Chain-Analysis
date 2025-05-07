@@ -2,10 +2,10 @@
 The project aimed to enhance supply chain efficiency by analyzing data from multiple sources. I used SQL for data extraction, Excel for cleaning, and Power BI for visualization, creating an analytics solution that provided insights into inventory, sales trends, product categories, and regional metrics.
 
 
-📖 Project Overview
+# 📖 Project Overview
 This project focused on analyzing and improving supply chain efficiency by leveraging data from various sources. Using SQL for data extraction, Excel for data cleaning, and Power BI for visualization, I developed an end-to-end analytics solution that delivered clear insights into inventory performance, sales trends, product categories, and regional metrics.
 
-🧾 Key Objectives
+# 🧾 Key Objectives
 Track overall inventory value, sales, and procurement cost
 
 Analyze year-over-year (YoY) and month-over-month (MoM) sales performance
@@ -16,7 +16,7 @@ Understand purchase behavior based on payment methods
 
 Enable interactive exploration of the data for better decision-making
 
-🧩 Process & Tools
+# 🧩 Process & Tools
 🔹 SQL (MySQL):
 
 Extracted and queried data from relational databases
@@ -43,7 +43,7 @@ Developed calculated columns and measures using DAX (YTD, QTD, MoM metrics)
 
 Visualized KPIs using cards, bar charts, pie charts, and line graphs
 
-📊 Key Insights
+# 📊 Key Insights
 Total Sales: $388M
 
 Total Cost: $117M
@@ -60,7 +60,7 @@ Popular Payment Method: Other (40% of sales)
 
 These insights helped identify sales opportunities, monitor inventory performance, and highlight seasonal demand cycles.
 
-✅ Impact & Outcome
+# ✅ Impact & Outcome
 Enabled better inventory management and reduced holding costs
 
 Supported sales strategy by identifying top categories and regions
@@ -69,7 +69,7 @@ Improved resource planning using trend forecasts and seasonal analysis
 
 Empowered stakeholders with a real-time, interactive dashboard for data-driven decisions
 
-🧠 Skills Demonstrated
+# 🧠 Skills Demonstrated
 Data Extraction (SQL)
 
 Data Cleaning & Modeling (Excel, Power Query)
@@ -80,6 +80,6 @@ Business Communication through visual storytelling
 
 Problem Solving using data-driven insights
 
-🙏 Thank You for Reading!
+# 🙏 Thank You for Reading!
 This project allowed me to combine the power of data tools to solve real business problems and uncover hidden supply chain patterns. If you're curious to know more or want to share your thoughts—I’d love to connect!
 
