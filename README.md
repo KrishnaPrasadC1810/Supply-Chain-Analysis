@@ -1,5 +1,5 @@
 # Supply-Chain-Analysis-Project
-The project aimed to enhance supply chain efficiency by analyzing data from multiple sources. I used SQL for data extraction, Excel for cleaning, and Power BI for visualization, creating an analytics solution that provided insights into inventory, sales trends, product categories, and regional metrics.
+# The project aimed to enhance supply chain efficiency by analyzing data from multiple sources. I used SQL for data extraction, Excel for cleaning, and Power BI for visualization, creating an analytics solution that provided insights into inventory, sales trends, product categories, and regional metrics.
 
 
 # 📖 Project Overview
